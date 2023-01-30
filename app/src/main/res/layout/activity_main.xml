@@ -51,6 +51,14 @@
             android:onClick="getWeatherDetails"
             android:text="Get"
             android:backgroundTint="@null"/>
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:background="#0070c7"
+            android:text="save data" />
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="150dp">

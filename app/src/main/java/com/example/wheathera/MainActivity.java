@@ -3,6 +3,7 @@ package com.example.wheathera;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -29,23 +30,29 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     EditText etCity, etCountry;
     TextView tvResult;
     private final String url = "https://api.openweathermap.org/data/2.5/weather";
-    private final String appid = "3ca964c66b3ccc2331ce7ac648b63fc1";
+    private final String appid = "e53301e27efa0b66d05045d91b2742d3";
     DecimalFormat df = new DecimalFormat("#.##");
     TextView userName;
     Button logout;
     GoogleSignInClient gClient;
     GoogleSignInOptions gOptions;
 
+    private Button saveButton;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        saveButton = findViewById(R.id.save_button);
         etCity = findViewById(R.id.etCity);
         etCountry = findViewById(R.id.etCountry);
         tvResult = findViewById(R.id.tvResult);
@@ -53,6 +60,21 @@ public class MainActivity extends AppCompatActivity {
         userName = findViewById(R.id.userName);
         gOptions = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
         gClient = GoogleSignIn.getClient(this, gOptions);
+        readDataFromSharePreference();
+
+        // Sauvegarder le nom de la ville
+        saveButton.setOnClickListener(v -> {
+            String s = tvResult.getText().toString();
+            Intent intent = new Intent(getApplicationContext(), DataActivity.class);
+            intent.putExtra("message_key", s);
+            startActivity(intent);
+            try {
+                saveDataInSharedPreferences(tvResult.getText().toString().trim());
+            } catch (JSONException e) {
+                throw new RuntimeException(e);
+            }
+        });
+
         GoogleSignInAccount gAccount = GoogleSignIn.getLastSignedInAccount(this);
         if (gAccount != null){
             String gName = gAccount.getDisplayName();
@@ -70,6 +92,42 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
+    }
+
+    private void saveDataInSharedPreferences (String city) throws JSONException {
+        /*SharedPreferences sharedPreferences = getSharedPreferences("MySharePref", MODE_PRIVATE);
+        SharedPreferences.Editor myEdit = sharedPreferences.edit();
+
+        JSONArray jsonArray = new JSONArray();
+        JSONObject jsonCity = new JSONObject();
+        jsonCity.put("name", city.getCityName());
+        jsonCity.put("temp", city.getTemp());
+        jsonCity.put("speed", city.getSpeed());
+        jsonArray.put(jsonCity);
+        myEdit.putString(CityList, jsonArray.toString());
+        myEdit.apply();
+
+        /*myEdit.putString("city", city);
+        myEdit.commit();
+        Toast.makeText(getApplicationContext(), "saved", Toast.LENGTH_SHORT).show(); */
+        SharedPreferences sharedPreferences = getSharedPreferences("MySharePref", MODE_PRIVATE);
+        SharedPreferences.Editor myEdit = sharedPreferences.edit();
+
+        myEdit.putString("city", city);
+        myEdit.commit();
+        Toast.makeText(getApplicationContext(), "saved", Toast.LENGTH_SHORT).show();
+        tvResult.setText(city);
+    }
+
+    private void readDataFromSharePreference() {
+        SharedPreferences sh = getSharedPreferences("MySharePref", MODE_PRIVATE);
+        String city = sh.getString("CITY", "");
+        if(city.isEmpty()){
+            saveButton.setText("Save Data");
+        }
+        else {
+            saveButton.setText("Update data ");
+        }
     }
 
     public void getWeatherDetails(View view) {
