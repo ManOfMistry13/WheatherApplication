@@ -17,14 +17,14 @@ Retrieve weather data:
     - **Clouds** 
     - **Pressure** *(in hPa)*
 
-• 📅 Accès rapide 24/24 et 7/7 
+• 📅 Quick access 24/7
 
-• 🌍 Accéder à la météo de millions de locations en tappant le nom de la ville ou le code de la ville
+- 🌍 Access the weather for millions of locations by typing the city name or city code
 
-• 🛑 Application sécurisée et privative avec accès personnalisé pour chaque utilisateur avec une adresse mail et un mot de passe
+- 🛑 Secure and private application with personalized access for each user with an email address and password
 
-• 🌐 Application en anglais : grande ouverture sur le monde, donc un grand nombre d'utilisateurs  
-
+- 🌐 Application in English: great openness to the world, therefore a large number of users
+-
 ## Screenshots 
 ![S'enregister](prog av\1.jpg)
 ![Créer un compte](prog av\2.jpg)
