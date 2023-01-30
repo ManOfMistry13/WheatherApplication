@@ -11,11 +11,11 @@ Retrieve weather data:
 - 🌦 Gives the weather situation of the day at a glance:
     - **Temperature** *(in °C)* 
     - **Felt temperature** *(in °C)*
-    - Humidity** *(in %)*
-    - Weather description** **Wind speed** *(in °C)* **Humidity
-    - Wind speed** *(in m/s)*
-    - Clouds** **Pressure** *(in hr)
-    - Pressure** *(in hPa)*
+    - **Humidity** *(in %)*
+    - **Weather description** 
+    - **Wind speed** *(in m/s)*
+    - **Clouds** 
+    - **Pressure** *(in hPa)*
 
 • 📅 Accès rapide 24/24 et 7/7 
 
