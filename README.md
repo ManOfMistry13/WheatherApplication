@@ -49,7 +49,12 @@ Retrieve weather data:
     <img  src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20London%20weather.png">
   
  </p>
-
+ 
+ <h3>Save data activity </h3>
+<p align="center">
+    <img  src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20SaveCity.png">
+  
+ </p>
 
 
 
