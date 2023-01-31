@@ -27,8 +27,8 @@ Retrieve weather data:
 - 🌐 Application in English: great openness to the world, therefore a large number of users
 
 ## Screenshots 
-<p align="center"> - Create an account:
-    </p>
+- Create an account:
+ 
 ![Screenshot Sign up 1](https://user-images.githubusercontent.com/42852573/215631255-4938ce95-22e5-493a-8cbb-84b5501238a4.png)
 ![Screenshot Sign up 2](https://user-images.githubusercontent.com/42852573/215631260-a9e81e1e-019b-4c33-aba3-a4c0588bdd4b.png)
 - Login :
