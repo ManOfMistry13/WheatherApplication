@@ -32,10 +32,24 @@ Retrieve weather data:
     <img  src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20Sign%20up%201.png">
     <img  src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20Sign%20up%202.png">
  </p>
+ 
+ 
+<h3>Login</h3>
+<p align="center">
+    <img  src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20Login.png">
+</p>
 
+<h3>Paris weather details</h3>
+<p align="center">
+    <img  src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20Paris%20weather.png">
+ </p>
+ 
+ <h3>London weather details</h3>
+<p align="center">
+    <img  src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20London%20weather.png">
+  
+ </p>
 
-
-![Screenshot Sign up 1](https://user-images.githubusercontent.com/42852573/215631255-4938ce95-22e5-493a-8cbb-84b5501238a4.png)
 
  
 
