@@ -29,7 +29,8 @@ Retrieve weather data:
 ## Screenshots 
 ### Create an account:
 <p align="center">
-    <img width="200" src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20Sign%20up%201.png" alt="Material Bread logo">
+    <img  src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20Sign%20up%201.png" alt="Material Bread logo">
+    
 </p>
 
 
