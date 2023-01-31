@@ -60,3 +60,10 @@ Retrieve weather data:
 * Java version 11
 * Supports API Level +21
 * Taille de la machine virtuelle : 1440 x 3040 ou 1080 x 2160
+
+
+## Licence
+copyrights : 
+MIASTRY Mansih : manishmistry39@gmail.com
+BETTAHAR Mohamed El Amine : aminebett26@gmail.com
+SLIMENE Randa : randaslimene21@gmail.com
