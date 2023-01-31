@@ -51,20 +51,6 @@ Retrieve weather data:
  </p>
 
 
- 
-
-![Screenshot Sign up 2](https://user-images.githubusercontent.com/42852573/215631260-a9e81e1e-019b-4c33-aba3-a4c0588bdd4b.png)
-###  Login :
-![Screenshot Login](https://user-images.githubusercontent.com/42852573/215631744-59ca3a5a-e95f-4d3c-bfd3-c940ef10b2d3.png)
-
-###  Paris weather details:
- ![Screenshot Paris weather](https://user-images.githubusercontent.com/42852573/215631764-77b6d6f8-df12-4972-9efd-fb392ceb0c19.png)
-
-### London weather details:
-![Screenshot London weather](https://user-images.githubusercontent.com/42852573/215631809-98bb4fda-0095-44b6-af6f-611d84993857.png)
-
-
-
 
 
 ## Requirements
