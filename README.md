@@ -1,4 +1,5 @@
 
+
 # Weather Application 🌦️
 
 A weather application with a user account built with *Java*. The weather data is fed by the *API OpenWeatherMap*.
@@ -26,7 +27,9 @@ Retrieve weather data:
 - 🌐 Application in English: great openness to the world, therefore a large number of users
 
 ## Screenshots 
-![S'enregister](prog av\1.jpg)
+![S'enregister]: 
+![Screenshot Sign up 1](https://user-images.githubusercontent.com/42852573/215631255-4938ce95-22e5-493a-8cbb-84b5501238a4.png)
+![Screenshot Sign up 2](https://user-images.githubusercontent.com/42852573/215631260-a9e81e1e-019b-4c33-aba3-a4c0588bdd4b.png)
 ![Créer un compte](prog av\2.jpg)
 ![Se connecter](prog av\3.jpg)
 ![La météo de la ville de Paris ](prog av\4.jpg)
