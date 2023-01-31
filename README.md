@@ -8,7 +8,7 @@ Retrieve weather data:
 **OpenWeatherMap**: https://openweathermap.org/ne 
 ## Features
 
-- 🌦 Gives the weather situation of the day at a glance:
+- 🌦 Gives the weather situation of the day:
     - **Temperature** *(in °C)* 
     - **Felt temperature** *(in °C)*
     - **Humidity** *(in %)*
