@@ -27,7 +27,7 @@ Retrieve weather data:
 - 🌐 Application in English: great openness to the world, therefore a large number of users
 
 ## Screenshots 
-<h2>Create an account</h2>
+<h3>Create an account</h3>
 <p align="center">
     <img  src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20Sign%20up%201.png">
     <img  src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20Sign%20up%202.png">
