@@ -29,7 +29,7 @@ Retrieve weather data:
 ## Screenshots 
 ### Create an account:
 <p align="center">
-  <img width="460" height="300" src="![Screenshot Sign up 1](https://user-images.githubusercontent.com/42852573/215631255-4938ce95-22e5-493a-8cbb-84b5501238a4.png)">
+  ![Screenshot Sign up 1](https://user-images.githubusercontent.com/42852573/215631255-4938ce95-22e5-493a-8cbb-84b5501238a4.png)
 </p>
  
 
