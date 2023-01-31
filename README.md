@@ -68,7 +68,7 @@ Retrieve weather data:
 
 
 ## Licence
-copyrights : 
-- MIASTRY Mansih : manishmistry39@gmail.com
+Copyrights : 
+- MISTRY Manishkumar : manishmistry39@gmail.com
 - BETTAHAR Mohamed El Amine : aminebett26@gmail.com
 - SLIMENE Randa : randaslimene21@gmail.com
