@@ -28,11 +28,12 @@ Retrieve weather data:
 
 ## Screenshots 
 
-<p align="center">
-    <h1 align="center">Create an account</h1>
-    <img  src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20Sign%20up%201.png" alt="Material Bread logo">
-    
-</p>
+
+    <h2 align="center">Create an account</h2>
+    <p align="center">
+    <img  src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20Sign%20up%201.png">
+    <img  src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20Sign%20up%202.png">
+    </p>
 
 
 
