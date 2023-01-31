@@ -27,8 +27,9 @@ Retrieve weather data:
 - 🌐 Application in English: great openness to the world, therefore a large number of users
 
 ## Screenshots 
-### Create an account:
+
 <p align="center">
+    ### Create an account:
     <img  src="https://github.com/ManOfMistry13/WheatherApplication/blob/master/Screenshot%20Sign%20up%201.png" alt="Material Bread logo">
     
 </p>
